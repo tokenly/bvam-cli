@@ -1,0 +1,21 @@
+{
+    "name": "tokenly/bvam-cli",
+    "description": "A simple command line client for the Tokenly BVAM Provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Devon Weller",
+            "email": "devon@tokenly.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "local/"
+        }
+    },
+    "require": {
+        "symfony/console": "2.6.*",
+        "tokenly/bvam-api-client": "^0.0.3"
+    }
+}
